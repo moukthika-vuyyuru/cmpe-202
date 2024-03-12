@@ -6,7 +6,7 @@
 class RandomStrategy : public Strategy
 {
 public:
-    char chooseNext(const std::vector<char> &history) override;
+    char chooseNext(const std::vector<char> &history = {}) override;
 };
 
 #endif /* RANDOMSTRATEGY_H */

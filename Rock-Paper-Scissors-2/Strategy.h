@@ -6,7 +6,7 @@
 class Strategy
 {
 public:
-    virtual char chooseNext(const std::vector<char> &history) = 0;
+    virtual char chooseNext(const std::vector<char> &history = {}) = 0;
     virtual ~Strategy() {}
 };
 
